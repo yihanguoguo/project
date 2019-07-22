@@ -1,0 +1,3166 @@
+*{margin: 0;
+padding:0;}
+a{text-decoration: none;
+    cursor: pointer;}
+li{list-style: none;}
+body{
+	overflow-x: hidden;
+}
+.header{
+
+	width: 100%;
+	height: 55px;
+
+	position: relative;
+
+}
+
+
+.header .mulu{
+	float: left;
+	width: 179px;
+	height: 55px;
+	background: #cf1132;
+	text-align: center;
+ 	line-height: 54px;
+ 	color: white;
+ 	font-size: 12px;
+		 cursor: pointer;
+		
+}
+
+.header .mulu .youxiwang{
+	width: 100%;
+	height: 536px;
+	background: #fff;
+	position: absolute;
+		border-top: 1px solid #d8d8d8;
+	left: 0;
+	top:55px;
+	z-index: 99999;
+	display:none;
+	opacity: .95;
+}
+.header .mulu:hover .youxiwang{
+	display:block;
+
+}
+.header .mulu .youxiwang .xin{
+	width: 1260px;
+	height: 485px;
+	margin: 0 auto;
+}
+.header .mulu .youxiwang .xin .tou{
+	width: 100%;
+	font-size: 12px;
+	position: relative;
+	height: 39px;
+}
+.header .mulu .youxiwang .xin .tou li{
+	float: left;
+    border-right: 1px solid #eee;
+    vertical-align: top;
+  
+
+}
+.header .mulu .youxiwang .xin .tou li b{
+	line-height: 39px;
+    color: #bc2e2e;
+    display: block;
+    width: 100%;
+    height: 39px;
+    font-size: 14px;
+    background: #f7f7f8;
+    overflow: hidden;
+    clear: both;
+}
+.header .mulu .youxiwang .xin .list{
+	width: 100%;
+	height: 445px;
+	position: relative;
+}
+
+.header .mulu .youxiwang .xin .list li{
+	height: 448px;
+    float: left;
+    padding: 10px 0 0 14px;
+    width:121px;
+	position: relative;
+}
+.header .mulu .youxiwang .xin .list li p{
+	margin-left: 6px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    color: #626262;
+    text-align: left;
+}
+.header .mulu .youxiwang .xin .list li a{
+	width: 115px;
+    margin-left: 6px;
+    line-height: 24px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: left;
+    color: #626262;
+    float:left;
+    margin-top: 3px;
+}
+.header .mulu .youxiwang .xin .list li a:hover{
+	color: red;
+}
+.header .mulu .youxiwang .xin .list li a em{
+	font-weight: 400;
+    display: block;
+    line-height: 24px;
+    text-align: left;
+    font-size: 12px;
+ font-style: normal;
+ width: 115px;
+ height: 23.16px;
+}
+.header .mulu .youxiwang .xin .list li a .em1{
+	background: url("./XBYM/阴阳师/sprite-w_dd519f4 (1).png") right -267px no-repeat;
+
+}
+.header .mulu .youxiwang .xin .list li a .em2{
+	background: url("./XBYM/阴阳师/sprite-w_dd519f4 (1).png") right -144px no-repeat;
+
+}
+.header .mulu .youxiwang .xin .list li a .em3{
+	background: url("./XBYM/阴阳师/sprite-w_dd519f4 (1).png") right -206px no-repeat;
+
+}
+.header .mulu .youxiwang .xin .list li .em8{
+	background: url("./XBYM/阴阳师/sprite-w_dd519f4 (1).png")0 -338px no-repeat;
+	display: block;
+	width: 75px;
+	height: 18px;
+	margin: 5px 7px;
+	color:#bc3030;
+	text-indent: 25px;
+}
+.header .mulu .youxiwang .xin .list li .hs{
+	width: 20px;
+    height: 95px;
+
+    display: block;
+    position: absolute;
+    right: -40px;
+    top: 124px;
+    font-size: 12px;
+    color: #fff;
+    background: #bc2e2e;
+    padding-left: 10px;
+    line-height: 14px;
+    padding-top: 7px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+}
+.header .mulu .youxiwang .xin .list  .hs1{
+	width: 20px;
+    height: 95px;
+    text-align: left;
+    z-index: 999;
+    display: block;
+    position: absolute;
+    right: 103px;
+    top: 124px;
+    font-size: 12px;
+    color: #fff;
+    background: #bc2e2e;
+    padding-left: 10px;
+    line-height: 14px;
+    padding-top: 7px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+}
+.header .mulu .youxiwang .xin .list  .hs1:hover{
+	opacity: .8;
+	color: #fff;
+}
+.header .mulu .youxiwang .xin .list li .hj{
+	border-radius: 2px;
+    right: 9px;
+    top: 163px;
+    padding-left: 4px;
+    padding-top: 2px;
+    height: 20px;
+    display:block;
+    position: absolute;
+    right: -40px;
+    top: 164px;
+    width: 20px;
+    font-size: 12px;
+    color: #fff;
+    background: #bc2e2e;
+    line-height: 14px;
+    text-align: left;
+    display:none;
+}
+.header .mulu .youxiwang .xin .list  .hj1{
+	border-radius: 2px;
+    right: 103px;
+    top: 163px;
+    padding-left: 4px;
+    padding-top: 2px;
+    height: 20px;
+    display:block;
+    position: absolute;
+    width: 20px;
+    font-size: 12px;
+    color: #fff;
+    background: #bc2e2e;
+    line-height: 14px;
+    text-align: left;
+    display:none;
+}
+.header .mulu .youxiwang .xin .list  .hj1:hover{
+	opacity: .8;
+	color: #fff;
+}
+
+.header .mulu .youxiwang .xin .list li .hj:hover{
+	opacity: .8;
+	color: #fff;
+}
+
+.header .mulu .youxiwang .xin .list #la2 a{
+	text-align: center;
+}
+.header .mulu .youxiwang .xin .list li .hs:hover{
+	opacity: .8;
+	color: #fff;
+}
+
+.header .mulu .youxiwang .xin .list .new .long{
+	width: 133px;
+	float: left;
+}
+
+.header .mulu i{
+	display: inline-block;
+    width: 25px;
+    height: 11px;
+    background: url(./XBYM/阴阳师/sprite-w_dd519f4.png) -90px -306px no-repeat;
+    margin-right: 8px;
+ 	
+}
+.header .img{
+	width: 420px;
+	height: 55px;
+	float: left;
+	margin-left: 1px;
+	position: relative;
+}
+.header .img .cz{
+	width: 960px;
+	height: 250px;
+	background: red;
+	position: absolute;
+	top:55px;
+	z-index: 99;
+	background: url("./XBYM/阴阳师/5ce115112786fd64bc0de1bcJGihb7JX02.jpg") no-repeat;
+	display:none;
+
+
+}
+.header .img:hover .cz{
+	display:block;
+
+}
+.header .img:hover img{
+	display:none;
+}
+
+.header .a1{
+
+			    width: 133px;
+    height: 44px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+        margin-top: 5px;
+}
+.header .lb1{
+	float: right;
+	width: 139px;
+	height: 54px;
+	border-left: 1px solid #dadada;
+	overflow: hidden;
+}
+.header .lb1 .bao{
+
+		width: 100%;
+		height: 156px;
+		float: left;
+		/*animation: zjm 25s infinite linear;
+transform-style:preserve-3d;*/
+}
+.header .lb1 .bao a{
+	color: #333;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	line-height: 52px;
+	transition: all 1s;
+	
+	 
+}
+
+
+/*@keyframes zjm{
+	0%{
+		transform: translate3d(0,0,0);
+	}
+	50%{
+		    transform: translate3d(0,-105px,0)
+	}
+	100%{
+		transform: translate3d(0,0,0);
+	}
+}
+*/
+
+
+
+
+.header .lb1 .bao a:hover{
+	color: #bc2e2e;
+	border-bottom: 1px solid #bc2e2e;
+	background: rgba(220,220,220,0.2);
+}
+.header1{
+	width: 100%;
+	height: 844px;
+	margin-top: 1px;
+
+}
+.header1 .top{
+	width: 100%;
+	height: 60px;
+	background: url("./XBYM/阴阳师/nav_back_bg_fd2505e.jpg");
+	position: relative;
+
+
+}
+.header1 .top .banxin{
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+}
+.header1 .top .banxin  a{
+	display: block;
+    width: 118px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 5px;
+    float: left;
+    position: relative;
+    color: white;
+    transition: all .6s;
+}
+
+
+.header1 .top .banxin .bao:hover{
+	background: url(./XBYM/阴阳师/nav_bg1_d44f09d.jpg);
+	color: #000;
+
+}
+.header1 .top .banxin .bao:hover a{
+	
+	color: #000;
+
+}
+.header1 .top .banxin i{
+	display: block;
+    position: absolute;
+    top: 24px;
+    right: -1px;
+    width: 1px;
+    height: 10px;
+    background: #fff;
+}
+.header1 .top .banxin .ss{
+	float: left;
+	width: 18px;
+    height: 19px;
+	display: block;
+	position: absolute;
+	right:30px;
+	top:20px;
+	background: url("./XBYM/阴阳师/search_b180dd5.png");
+	transition: all ease .3s;
+}
+.header1 .top .banxin .ss:hover{
+	transform: rotateY(180deg);
+	cursor: pointer;
+}
+.header1 .top .banxin .a1{
+	background: url("./XBYM/阴阳师/nav_bg1_d44f09d.jpg");
+	color: #000;
+	z-index: 9;
+}
+.header1 .top .banxin .bao>a:hover{
+	background: url("./XBYM/阴阳师/nav_bg1_d44f09d.jpg");
+	color: #000;
+	z-index: 999;
+}
+
+
+.header1 .top .meau{
+
+	width: 100%;
+	height: 140px;
+	background:  url("./XBYM/阴阳师/subnav_bg_5cc9309.jpg") no-repeat;
+	position: absolute;
+	top:60px;
+	left: 0;
+	display:none;
+	z-index: 999;
+}
+.header1 .top .banxin .bao:hover .meau{
+	display:block;
+}
+
+.header1 .top .banxin .bao:hover i{
+	display:none;
+}
+.header1 .top .meau .banxin{
+	width: 1180px;
+	height: 140px;
+	margin: 0 auto;
+}
+.header1 .top .meau .banxin .subnay{
+	width: 945px;
+	margin-left: 108px;
+
+	height: 140px;
+	margin-top: 24px;
+
+}
+.header1 .top .meau .banxin .subnay1{
+	width: 1180px;
+
+	height: 140px;
+	margin-top: 24px;
+
+}
+.header1 .top .meau .banxin .subnay1 a{
+	display: block;
+	 width: 149.2px;
+    height: 92px;
+    margin: 0 9px;
+    position: relative;
+
+}
+
+.header1 .top .meau .banxin .subnay1 a img:hover{
+
+	border-color: #aa2d26;
+
+}
+
+
+.header1 .top .meau .banxin .subnay a{
+	display: block;
+	 width: 149.2px;
+    height: 92px;
+    margin: 0 10px;
+    position: relative;
+
+}
+.header1 .top .meau .banxin .subnay a i{
+	color: #fff;
+    background: #c2a060;
+   height: 33px;
+    width: 15px;
+    padding: 2px 3px;
+    line-height: 18px;
+    font-weight: 400;
+     position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-style: normal;
+}
+.header1 .top .meau .banxin .subnay a p{
+	position: absolute;
+    bottom: 2px;
+    padding: 0 13px;
+        width: 100%;
+    text-align: left;
+    line-height: 16px;
+    height: 35.5px;
+    box-sizing: border-box;
+    color: #fff;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    
+}
+.header1 .top .meau .banxin .subnay a img{
+	width: 100%;
+	height: 100%;
+
+}
+.header1 .top .meau .banxin .subnay1 a img{
+	width: 100%;
+	height: 88px;
+	    border: 2px solid #000;
+	    position: relative;
+
+}
+.header1 .top .meau .banxin .subnay a  span{
+	background: url("./XBYM/阴阳师/nav_tr_bg_73143fd.png") no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header1 .top .meau .banxin .subnay1 a  span{
+	background: url("./XBYM/阴阳师/nav_tr_bg_73143fd.png") no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header1 .top .meau .banxin .subnay1 em{
+	position: absolute;
+    right: -4px;
+    bottom: 5px;
+    background: #c2a060;
+    font-size: 14px;
+    color: #000;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 2px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+.header1 .top .meau .banxin .subnay1 b{
+  
+    color: #c2a060;
+  	width: 100%;
+  	text-align: center;
+    height: 20px;
+    display: block;
+    font-style: normal;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    line-height: 2px;
+}
+.header1 .top .meau .banxin .subnay1 .rmht{
+   width: 216px;
+    margin-left: 20px;
+    height: 97px;
+    float: left;
+}
+.header1 .top .meau .banxin .subnay1 .rmht .title{
+	background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+	background-position: -1085px -452px;
+	background-repeat: no-repeat;
+	width: 88px;
+    height: 19px;
+   float:left;
+ 
+}
+.header1 .top .meau .banxin .subnay1 .rmtr{
+	height: 60px;
+    margin-top: 30px;
+
+
+}
+.header1 .top .meau .banxin .subnay1 .rmtr span{
+	
+	color: #000;
+	float: left;
+	display:block;
+	width: 60px;
+	height: 16px;
+	font-size: 12px;
+	line-height: 13px;
+	text-align: center;
+	margin-top: 10px;
+
+
+}
+.header1 .top .meau .banxin .subnay1 .rmtr span:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.header1 .top .meau .banxin .subnay1 .rmtr .sp1{
+	width: 1px;
+    height: 13px;
+    margin: 0 5px;
+    background: #000;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.header1 .top .meau .banxin .subnay1 .line{
+	width: 1px;
+    height: 92px;
+    background: #a78442;
+    margin: 0 30px;
+    display: inline-block;
+    float: left;
+}
+.header1 .top .meau .banxin .subnay1 .rmbq{
+   width: 240px;
+    margin-left: 20px;
+    height: 97px;
+    float: left;
+}
+.header1 .top .meau .banxin .subnay1 .rmbq .title{
+	background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+	background-position: -567px -657px;
+	background-repeat: no-repeat;
+	width: 88px;
+    height: 19px;
+   float:left;
+ 
+}
+.header1 .top .meau .banxin .subnay1 .rmbq .trm{
+	height: 60px;
+    margin-top: 30px;
+}
+.header1 .top .meau .banxin .subnay1 .rmbq .trm span{
+	color: #000;
+	float: left;
+	display:block;
+	width: 80px;
+	height: 16px;
+	font-size: 12px;
+	line-height: 13px;
+	text-align: center;
+	margin-top: 10px;
+}
+.header1 .top .meau .banxin .subnay1 .rmbq span:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.header1 .top .meau .banxin .subnay2 a{
+	display: block;
+    position: relative;
+    margin: 0 50px;
+    width: 81px;
+    height: 100px;
+}
+.header1 .top .meau .banxin .subnay2  a p{
+	    font-size: 14px;
+    text-align: center;
+    width: 81px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    line-height: 0;
+
+}
+.header1 .top .meau .banxin .subnay2 .line{
+	width: 1px;
+    height: 110px;
+    background: #a78442;
+    display: inline-block;
+    margin: -18px 80px 0 20px;
+    float: left;
+}
+.header1 .top .meau .banxin .subnay2 .num{
+	width: 150px;
+	margin-top: -14px;
+	float: left;
+}
+.header1 .top .meau .banxin .subnay2 .num p{
+	font-size: 12px;
+	margin-top: 4px;
+}
+.header1 .banner{
+	width: 100%;
+	height: 784px;
+	position: relative;
+
+}
+.header1 .banner .img1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.header1 .banner .bx{
+	width: 1180px;
+	height: 190px;
+	margin: 0 auto;
+	position: relative;
+}
+.header1 .banner .bx span{
+	background: url("./XBYM/阴阳师/50.jpg")0 0 no-repeat;
+	display:block;
+	width: 47px;
+	height: 136px;
+	position: absolute;
+	left: 70px;
+	top:50px;
+
+
+}
+.header1 .banner .clr{
+	width: 1180px;
+	height: 287px;
+	margin: 0 auto;
+	margin-top: 260px;
+
+
+
+}
+.header1 .banner .clr .zuo{
+	width: 145px;
+	height: 83%;
+	float: left;
+	background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+	background-position: 0px 0px;
+	    background-repeat: no-repeat;
+	        padding-top: 47px;
+	        z-index: 110;
+	        position: relative;
+
+}
+.header1 .banner .clr .zuo .download{
+	height: 224px;
+
+}
+.header1 .banner .clr .zuo .download .tu{
+	width: 107px;
+    height: 107px;
+    margin: 0 auto;
+}
+.header1 .banner .clr .zuo .download .tu img{
+	width: 107px;
+    height: 107px;
+}
+.header1 .banner .clr .zuo .download .xia{
+	width: 107px;
+    height: 107px;
+    display:block;
+    margin: 10px auto;
+    background: url("./XBYM/阴阳师/zmb_bg_h_4f3290f.jpg") no-repeat;
+
+
+}
+.header1 .banner .clr .zuo .download .xia:hover{
+	 background: url("./XBYM/阴阳师/zmb_bg_h_4f3290f (1).jpg") no-repeat;
+	 cursor: pointer;
+	 /*opacity: 0.5;*/
+
+
+
+}
+.header1 .banner .clr .zuo .download .xian{
+	    position: absolute;
+    left: 12px;
+    top: 45px;
+    animation: zj 5s infinite linear;
+transform-style:preserve-3d;
+}
+@keyframes zj{
+	0%{
+		transform: translate3d(0,0,0);
+	}
+	50%{
+		    transform: translate3d(0,100px,0);
+	}
+	100%{
+		transform: translate3d(0,0,0);
+	}
+}
+
+
+.header1 .banner .news{
+	width: 1021px;
+	height: 285px;
+
+	float: right;
+	position: relative;
+	z-index: 999;
+}
+.header1 .banner .news .tab{
+	width: 324px;
+	height: 41px;
+
+}
+.header1 .banner .news .tab ul li{
+	width: 162px;
+  background: rgba(0,0,0,.8);
+    color: #c2a060;
+    line-height: 34px;
+	height: 41px;
+	text-align: center;
+    font-size: 16px;
+        cursor: pointer;
+        letter-spacing: 3px;
+
+}
+.header1 .banner .news .tab ul li span{
+	display:block;
+	width: 83px;
+    height: 4px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+    background-position: -806px -492px;
+
+}
+.header1 .banner .news .box{
+	width: 1031px;
+    height: 244px;
+     background: rgba(0,0,0,.8);
+     position: relative;
+
+}
+.header1 .banner .news .box .zixun{
+	    position: absolute;
+    width: 1021px;
+        height: 200px;
+        overflow: hidden;
+    left: 0px;
+    top: 0px;
+}
+.header1 .banner .news .box .zixun ul{
+	width: 4160px;
+	height: 177px;
+
+	position: absolute;
+	top: 20px;
+
+
+}
+.header1 .banner .news .box .zixun ul li{
+	float: left;
+	margin-right: 20px;
+	
+}
+.header1 .banner .news .box .zixun ul .li1 img{
+		width: 240px;
+		height: auto;
+		float: left;
+
+}
+.header1 .banner .news .box .zixun ul .li1 i{
+	position: absolute;
+    left: 0;
+    top: 0;
+    display:block;
+    width: 15px;
+    padding:2px 3px;
+    color: #fff;
+    background: #f24853;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 12px;
+    font-style: normal;
+    transition: all .4s ease;
+}
+.header1 .banner .news .box .zixun ul .li1:hover i{
+	margin-top: -20px;
+}
+.header1 .banner .news .box .zixun ul .li1 .tj{
+	width: 210px;
+    padding: 10px 15px 0;
+    background: #fff;
+    height: 37px;
+        overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    float: left;
+}
+.header1 .banner .news .box .zixun ul .li2{
+	width: 200px;
+	height: 141px;
+	background: #31235d;
+	padding: 20px 20px 16px;
+
+
+}
+.header1 .banner .news .box .zixun ul .li2 h2{
+	font-size: 16px;
+	font-weight: 700;
+	height: 60px;
+	overflow: hidden;
+	color: #d191e3;
+}
+.header1 .banner .news .box .zixun ul .li2 p{
+	color: #7e5f96;
+	height: 40px;
+	margin: 10px 0;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 170%;
+
+}
+.header1 .banner .news .box .zixun ul .li2 span{
+	display: block;
+    width: 41px;
+    height: 5px;
+    background: url("./XBYM/阴阳师/arrow_245be57.png");
+    margin-left: 160px;
+    transition: all ease .3s;
+   
+}
+.header1 .banner .news .box .zixun ul .li2:hover span{
+	  animation: zjj .2s 3 linear;
+transform-style:preserve-3d;
+
+		
+}
+@keyframes zjj{
+	0%{
+		transform: translate3d(0,0,0);
+	}
+	50%{
+		    transform: translate3d(8px,0,0)
+	}
+	100%{
+		transform: translate3d(0,0,0);
+	}
+	
+}
+.header1 .banner .news .box .zixun ul .have .hm{
+	background: url("./XBYM/阴阳师/index_x_da5c1e4.png") 0px 0px repeat-x;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+
+}
+.header1 .banner .news .box .zixun ul .have .bors{
+	width: 238px;
+	height: 175px;
+	border: 1px solid #c2a060;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.header1 .banner .news .box .zixun ul .have p{
+	position: absolute;
+	width: 210px;
+	color: #fff;
+	left: 18px;
+	bottom: 6px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.header1 .banner .news .box .zixun ul .have .xw{
+	color: #fff;
+	background: #c2a060;
+	width: 15px;
+	padding:2px 3px;
+	line-height: 18px;
+	font-weight: 400;
+	position: absolute;
+	left: 0;
+	top:0;
+	text-align: center;
+}
+.header1 .banner .news .box  .bth{
+	width: 1020px;
+	text-align: right;
+	margin-top: 10px;
+	height: 24px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding-bottom: 10px;
+}
+.header1 .banner .news .box  .bth a{
+	color: #fff;
+	margin-left: 15px;
+	font-size: 12px;
+
+
+}
+.header1 .banner .news .box  .bth a:hover{
+	text-decoration: underline;
+
+}
+.header1 .banner .news .box  .bth span{
+	    width: 1px;
+    height: 13px;
+    background: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+
+}
+
+.header1 .banner .guihuoz{
+	width: 622px;
+    height: 642px;
+    background: url("./XBYM/阴阳师/guihuo_left_745aad8.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -174px;
+    margin-left: -952px;
+    z-index: 11;
+
+}
+
+.header1 .banner .guihuoy{
+	width: 604px;
+    height: 665px;
+    background: url("./XBYM/阴阳师/guihuo_right_d5e0a99.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -184px;
+    margin-left: 340px;
+
+
+}
+
+.header1 .banner .guishouz{
+			width: 229px;
+    height: 290px;
+    background: url("./XBYM/阴阳师/guishou_left_72ca9fa.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 105px;
+    margin-left: -753px;
+    z-index: 110;
+}
+.header1 .banner .guishouy{
+			width: 222px;
+    height: 303px;
+    background: url("./XBYM/阴阳师/guishou_right_78f9c37.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 105px;
+    margin-left: 525px;
+    z-index: 9999;
+}
+.header1 .banner .vj{
+	width: 100%;
+    height: 287px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: url("./XBYM/阴阳师/bot_head_bg_450ba6b.png")center bottom repeat-x;
+}
+.header .meinv{
+	position: absolute;
+	left: 9px;
+	top: 85px;
+	width: 306px;
+	height: 76px;
+	
+	display: none;
+	z-index: 99999999;
+
+
+	
+}
+.header .meinv .sm{
+	color: #fff;
+    width: 15px;
+    line-height: 14px;
+    margin-right: 10px;
+	
+	font-size: 12px;
+	float: left;
+}
+.header .meinv .mm{
+	width: 72px;
+    height: 72px;
+    background: url("./XBYM/阴阳师/72.png") no-repeat;
+	margin: 0 10px 0 0;
+	display: block;
+	float: left;
+	margin-left: 15px;
+}
+.header .meinv .zi{
+	color: #fff;
+}
+.header .meinv .zi p:nth-child(1){
+	font-weight: 700;
+    font-size: 24px;
+    margin: 3px 0;
+}
+.header .meinv .zi p:nth-child(2){
+	
+    font-size: 12px;
+ 
+}
+
+.shijie{
+	width: 1180px;
+    margin: 43px auto 0;
+    height: 3379px;
+
+}
+.shijie .pa{
+	width: 100%;
+	height: 495px;
+	margin: 0 auto;
+	position: relative;
+}
+.shijie .pa .tit{
+	background-image:url("./XBYM/阴阳师/index_z_7b228ae.png");
+	background-position: -980px -297px;
+	background-repeat: no-repeat;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 54px;
+    height: 145px;
+    z-index: 0;
+}
+.shijie .pa .wrap{
+	width: 1180px;
+		height: auto;
+
+}
+.shijie .pa .wrap .wordtab{
+	width: 292px;
+    height: 36px;
+    border: 2px solid #c2a060;
+    z-index: 10;
+    position: relative;
+    margin-left: 120px;
+    z-index: 999;
+}
+.shijie .pa .wrap .wordtab ul{
+	width: 288px;
+    height: 32px;
+    border: 2px solid #fff;
+}
+.shijie .pa .wrap .wordtab ul li{
+    
+    float: left;
+    font-size: 14px;
+    width: 96px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    position: relative;
+}
+
+.shijie .pa .wrap .wordtab ul li i{
+	width: 1px;
+    height: 18px;
+    background: #c2a060;
+    position: absolute;
+    display:block;
+    top: 7px;
+    right: -3px;
+    z-index: 10;
+}
+
+
+.shijie .pa .wrap .wordbox{
+	width: 100%;
+	height: 445px;
+}
+.shijie .pa .wrap .wordbox .shishenlu{
+	position: relative;
+	width: 100%;
+	height: 445px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .seach{
+	top: -24px;
+    right: 0;
+    width: 182px;
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #c2a060;
+    position: absolute;
+    z-index: 2000;
+ 
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .seach input{
+	width: 160px;
+    height: 23px;
+    line-height: 23px;
+    border: 0;
+    float: left;
+    display: block;
+    background-color: white;
+    outline:none;
+}
+.shijie .pa .wrap .wordbox .shishenlu .seach .tg{
+	width: 18px;
+    height: 19px;
+    background: url("./XBYM/阴阳师/search_b180dd5.png") no-repeat;
+    display: block;
+    float: left;
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg{
+	width: 1180px;
+    height: 454px;
+    padding-top: 1px;
+    position: relative;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist{
+	position: absolute;
+    left: 120px;
+    top: 28px;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 16px;
+    color: #c2a060;
+    width: 130px;
+    height: 25px;
+    z-index: 999;
+   
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist:hover>i{
+
+    transform: translate(-5px,0);
+	transition: all .6s;
+
+}
+
+
+
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist i{
+	width: 8px;
+    height: 13px;
+        display: inline-block;
+    vertical-align: middle;
+
+    margin-right: 20px;
+    background: url("./XBYM/阴阳师/back_a41fdf7.png")no-repeat;
+    
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall{
+	width: 1060px;
+    position: relative;
+    padding-top: 30px;
+    display:none;
+    height: 560px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sslist{
+	position: relative;
+    z-index: 10;
+    font-size: 18px;
+    margin: 0 0 13px;
+
+    height: 25px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sslist a{
+	position: relative;
+    padding: 0 20px;
+    color: #000;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sslist i{
+	    position: absolute;
+    right: -21px;
+    top: 50%;
+    content: '';
+    display: block;
+    width: 1px;
+    height: 14px;
+    background: #c2a060;
+    transform: translate(0,-50%);
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sstabs{
+	width: 1060px;
+
+    position: relative;
+    background: white;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sswrap{
+	    width: 1060px;
+    position: relative;
+    overflow: hidden;
+    height: 460px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sswrap .chang{
+	 width: 6360px;
+    left: 0px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+       height: 460px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sswrap .chang ul{
+	float: left;
+    width: 1060px;
+    height: 460px;
+    height: auto;
+    padding-top: 10px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sswrap .chang ul li{
+	    margin-bottom: 14px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sswrap .chang ul li a{
+	display: block;
+    width: 100px;
+    height: 100px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sswrap .chang ul li a span{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: url(./XBYM/阴阳师/mask_5c0385b.png) repeat;
+    z-index: 2;
+    display: table;
+    opacity: 0;
+    transition: all .3s;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sswrap .chang ul li a:hover span{
+	opacity: 1;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sswrap .chang ul li a b{
+	    display: block;
+    width: 31px;
+    height: 36px;
+    background: url(./XBYM/阴阳师/new_icon_253bf40.png) no-repeat;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 3;
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .sswrap .chang ul li p{
+	    text-align: center;
+    font-size: 14px;
+    margin: 5px auto 6px;
+    color: #000;
+}
+
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .ssjt{
+	    width: 220px;
+    margin: 0 auto;
+    height: 32px;
+    position: relative;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .ssjt .next{
+	float: left;
+    margin-right: 20px;
+    display: block;
+    width: 98px;
+    height: 30px;
+    border: 1px solid #ecdbbd;
+        transition: all .3s ease;
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .ssjt .next:hover{
+	    background: #ecdbbd;
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .ssjt .next:hover b{
+	background: url("./XBYM/阴阳师/arrow5_fb43a6e.png") no-repeat;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .ssjt .next b{
+	background: url("./XBYM/阴阳师/arrow1_53d9b6f.png") no-repeat;
+	display: block;
+    width: 47px;
+    height: 9px;
+    margin-top: 11px;
+    margin-left: 24px;
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .ssjt .prev{
+	float: left;
+    
+    display: block;
+    width: 98px;
+    height: 30px;
+    border: 1px solid #ecdbbd;
+        transition: all .3s ease;
+        position: absolute;
+        right: 0;
+
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .ssjt .prev:hover{
+	 background: #ecdbbd;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .ssjt .prev:hover b{
+	background: url("./XBYM/阴阳师/arrow6_3157168.png") no-repeat;
+}
+
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .toulist .ssall .ssjt .prev b{
+	background: url("./XBYM/阴阳师/arrow4_bdb96a0.png") no-repeat;
+	display: block;
+    width: 47px;
+    height: 9px;
+    margin-top: 11px;
+    margin-left: 24px;
+
+}
+
+
+
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg{
+	width: 1180px;
+    height: 320px;
+    background: url("./XBYM/阴阳师/shishen_bg_000bc91.jpg") center 0 no-repeat;
+    position: relative;
+    margin-top: 128px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .left{
+	width: 78px;
+    height: 318px;
+    border: 1px solid #ecdbbd;
+    background: url("./XBYM/阴阳师/shishen_btn_bg_405a749.png") center bottom no-repeat;
+    position: absolute;
+    top: 0;
+    transition: all .3s ease;
+    z-index: 10;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .left:hover{
+	    border-color: #c2a060;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .left:hover p{
+	color:#c2a060;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .left:hover .jt{
+	background:#c2a060;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .left .line{
+	width: 1px;
+    height: 16px;
+    margin: 15px auto 10px;
+    display: block;
+    background: #ecdbbd;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .left p{
+	width: 18px;
+    margin: 0 auto;
+    color: #ecdbbd;
+    font-size: 18px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .left .jt{
+	border: 1px solid #ecdbbd;
+    display: block;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    background: #fff;
+        transition: all .3s ease;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .left .jt i{
+	background:  url("./XBYM/阴阳师/arrow7_81e9fff.png") no-repeat;
+	width: 37px;
+    height: 9px;
+    display: block;
+    margin: 25px auto 0;
+        transition: all .3s ease;
+}
+
+
+
+
+
+
+
+
+
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .right{
+	width: 78px;
+    height: 318px;
+    border: 1px solid #ecdbbd;
+    background: url("./XBYM/阴阳师/shishen_btn_bg_405a749.png") center bottom no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all .3s ease;
+    z-index: 10;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .right:hover{
+	    border-color: #c2a060;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .right:hover p{
+	color:#c2a060;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .right:hover .jt{
+	background:#c2a060;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .right .line{
+	width: 1px;
+    height: 16px;
+    margin: 15px auto 10px;
+    display: block;
+    background: #ecdbbd;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .right p{
+	width: 18px;
+    margin: 0 auto;
+    color: #ecdbbd;
+    font-size: 18px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .right .jt{
+	border: 1px solid #ecdbbd;
+    display: block;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 130px;
+    left: -32px;
+    background: #fff;
+        transition: all .3s ease;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .right .jt i{
+	background:  url("./XBYM/阴阳师/arrow8_395366a.png") no-repeat;
+	width: 37px;
+    height: 9px;
+    display: block;
+    margin: 25px auto 0;
+        transition: all .3s ease;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .imglist{
+	position: relative;
+    width: 1180px;
+    height: 320px;
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .imglist .imglist1{
+	position: absolute;
+    width: 1180px;
+    left: 0px;
+    top: 0px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .imglist .imglist1 a{
+	display: block;
+    width: 940px;
+    height: 320px;
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .imglist .imglist1 a .bigcon{
+	width: 940px;
+    height: 420px;
+    position: absolute;
+    left: 120px;
+    bottom: 0;}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .imglist .imglist1 a .bigcon .nameon{
+	position: absolute;
+	top: -86px;
+    left: -140px;
+
+  
+}
+.shijie .pa .wrap .wordbox .shishenlu .bigimg .bimg .imglist .imglist1 a .bigcon .roleon{
+	top: -86px;
+    left: -140px;
+    position: absolute;
+
+    
+}
+.zjj img{
+	opacity: 0;
+}
+
+.shijie .pa .wrap .wordbox .shishenlu .zhujue{
+	position: relative;
+    padding: 0 17px;
+    font-size: 18px;
+    color: #000;
+}
+.shijie .pa .wrap .wordbox .shishenlu .zhujue span{
+	font-size: 18px;
+	cursor: pointer;
+}
+.shijie .pa .wrap .wordbox .shishenlu .zhujue:nth-child(4)::after{
+	position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    content: '';
+    display: block;
+    width: 1px;
+    height: 12px;
+    background: #c2a060;
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .zhujue ::before{
+	    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    content: '';
+    display: block;
+    width: 1px;
+    height: 14px;
+    background: #c2a060;
+}
+.shijie .pa .wrap .wordbox .shishenlu:nth-child(3){
+	width: 100%;
+	height: 429px;
+	position: absolute;
+	top:50px;
+	display:none;
+	
+
+}
+.shijie .pa .wrap .wordbox .shishenlu .syzwarp{
+	width: 1060px;
+    height: 429px;
+    margin: 36px 0 0 120px;
+    box-sizing: border-box;
+    padding: 1px 52px 22px;
+    display: flex;
+    justify-content: space-between;
+    background: url("./XBYM/阴阳师/shengyou_bg_61fd224.png")0 0 no-repeat;
+}
+.shijie .pa .wrap .wordbox .shishenlu .syzwarp ul{
+	    width: auto;
+    margin: 12px 0 0;
+    float: left;
+}
+.shijie .pa .wrap .wordbox .shishenlu .syzwarp ul li{
+	
+	font-size: 16px;
+    line-height: 32px;
+    height: 32px;
+
+}
+.shijie #sts{
+	position: absolute;
+	top: 78px;
+opacity: 0;
+transition: all 1s;
+}
+.shijie #sts ul li{
+	float: left;
+	margin-bottom: 14px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.shijie #sts ul li p{
+	text-align: center;
+    font-size: 14px;
+    margin: 5px auto 6px;
+    color: #000;
+}
+.shijie .gonglue{
+	height: 470px;
+   
+    margin-top: 70px;
+    background: url("./XBYM/阴阳师/stategy_bg_4def7a7.jpg") 0 174px no-repeat;
+	
+}
+.shijie .gonglue .titpart{
+	background: url("./XBYM/阴阳师/index_z_7b228ae.png")-852px -297px no-repeat;
+	/*display:block;*/
+	width: 55px;
+    height: 145px;
+    float: left;
+}
+.shijie .gonglue .clr{
+	margin-left: 45px;
+    float: left;
+    height: 209px;
+}
+.shijie .gonglue .uclr li{
+	width: 340px;
+    height: 209px;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+
+}
+.shijie .gonglue .uclr li a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.shijie .gonglue .uclr li a .sp1{
+	left: 18px;
+    top: 0;
+    padding: 0 10px;
+    position: absolute;
+    width: 20px;
+    height: 90px;
+    background: url("./XBYM/阴阳师/stategy_tit_bg_3dfaee2.png") no-repeat;
+    text-align: center;
+ 
+transition: all 1s;
+
+
+}
+.shijie .gonglue .uclr li a .sp2{
+	left: 68px;
+    top: 22px;
+    padding: 0 10px;
+    position: absolute;
+    width: 20px;
+    height: 90px;
+    background: url("./XBYM/阴阳师/stategy_tit_bg_3dfaee2.png") no-repeat;
+    text-align: center;
+    transition: all 1s;
+  
+
+
+
+}
+.shijie .gonglue .uclr li a  em{
+	display: block;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    color: #000;
+      width: 20px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.shijie .gonglue .uclr li:hover .sp1{
+	
+	top:-15px;}
+.shijie .gonglue .uclr li:hover .sp2{
+
+	top:0;}
+
+.shijie .tabm{
+	margin-left: 120px;
+ top: 31px;
+    height: 44px;
+    position: relative;
+    	float:left;
+    	z-index: 1000;
+
+}
+.shijie .tabm ul{
+	height: 44px;
+	float:left;
+}
+.shijie .tabm ul li{
+	float: left;
+    width: 154px;
+    height: 45px;
+    text-align: center;
+  
+    font-size: 18px;
+    position: relative;
+    color: #fff;
+
+cursor: pointer;
+    line-height: 44px;
+}
+.shijie .tabm ul li a{
+  color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+  
+}
+.shijie .tabm ul li a i{
+	width: 71px;
+    height: 4px;
+   display:block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+    background-position: -725px -492px;
+   margin-top: -5px;
+   display:none;
+}
+
+.shijie .tabm ul li b{
+    width: 1px;
+    height: 14px;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    z-index: 10;
+    top: 15px;
+    display:block;
+}
+.shijie .yj{
+	width: 163px;
+    height: 44px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 44px;
+    position: absolute;
+    color: #fff;
+    top: -20px;
+    right: -240px;
+
+}
+.shijie .yj i{
+
+	    position: absolute;
+    top: 1px;
+    right: 2px;
+    width: 5px;
+    height: 5px;
+    background-repeat: no-repeat;
+     background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+     	background-position: -1166px -527px;
+}
+.shijie .bottomtab{
+	width: 1058px;
+    height: 124px;
+    border: 2px solid #81c0a1;
+    border-top:0;
+    padding: 30px 0 20px 118px;
+    float: left;
+    position: relative;
+}
+.shijie .bottomtab .con{
+	
+	position: absolute;
+	top:57px;
+	left: 115px;
+	opacity: 0;
+	 transition: all 1s;
+}
+
+.shijie .bottomtab .con:first-child{
+	opacity: 1;
+}
+.shijie .bottomtab .con ul li{
+	width: 320px;
+    height: 40px;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 30px;
+    overflow: hidden;
+
+}
+.shijie .bottomtab .con .s-line{
+	    width: 5px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+}
+.shijie .bottomtab .con .s-line i{
+	width: 2px;
+    height: 40px;
+    background: #ccc;
+    display: block;
+}
+.shijie .bottomtab .con .s-con{
+	display: inline-block;
+    width: 300px;
+    float: left;
+	position: relative;
+}
+.shijie .bottomtab .con .s-con p{
+	color: #000;
+    overflow: hidden;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+  
+}
+.shijie .bottomtab .con .s-con span{
+	    color: #666;
+	    font-size: 12px;
+	    position: absolute;
+	   display:block;
+	   height: 16px;
+	   line-height: 16px;
+	   margin-left: 7px;
+	 
+}
+
+.shijie .shouzhang{
+	height: 487px;
+    background: url("./XBYM/阴阳师/tongren_bg_4e00ea2.jpg") 0 bottom no-repeat;
+}
+.shijie .shouzhang .szimg{
+	width: 53px;
+    height: 144px;
+  
+     background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+        background-position: -1043px -297px;
+          background-repeat: no-repeat;
+
+}
+.shijie .shouzhang .tongban{
+	width: 300px;
+    height: 456px;
+    float: left;
+    margin-left: 65px;
+    overflow: hidden;
+}
+.shijie .shouzhang .tongban .tbbox{
+	width: 300px;
+    height: 456px;
+    float: left;
+}
+.shijie .shouzhang .tongban .bantit{
+	width: 100%;
+    height: 23px;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+.shijie .bannumber{
+	float: right;
+    border-left: 1px solid #ccc;
+    height: 18px;
+    padding-left: 10px;
+}
+.shijie .bannumber span{
+	background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+	 background-position: -657px -657px;
+	  background-repeat: no-repeat;
+	 display: inline-block;
+    width: 14px;
+    height: 19px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.shijie .rmhd{
+	background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+	    background-position: -357px -657px;
+	    width: 95px;
+    height: 23px;
+    float: left;
+    background-repeat: no-repeat;
+}
+.shijie .banbb{
+	position: relative;
+}
+.shijie .banbb a{
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.shijie .banbb img{
+	display:none;
+
+}
+.shijie .banbb a:first-child img{
+display:block;
+}
+.shijie .shouzhang .tongban2{
+    margin-left: 20px;
+    float: right;
+    width: 720px;
+
+}
+.shijie .shouzhang .tongban2 .tbtabs{
+    position: relative;
+    width: 100%;
+    height: 23px;
+    overflow: hidden;
+   
+ 
+}
+.shijie .shouzhang .tongban2 .tbtabs .tongtit{
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+    background-position: -462px -657px;
+    width: 95px;
+    height: 23px;
+    display: block;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    float: left;
+}
+.shijie .shouzhang .tongban2 .tbtabs ul{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    height: 12px;
+    display: block;
+}
+.shijie .shouzhang .tongban2 .tbtabs ul li{
+    float: left;
+    padding: 0 20px;
+    border-right: 1px solid #ccc;
+    height: 12px;
+    line-height: 12px;
+}
+.shijie .shouzhang .tongban2 .tbtabs ul li:first-child{
+    border-left: 1px solid #ccc;
+}
+.shijie .shouzhang .tongban2 .tbtabs ul li a{
+    color: #bf9962;
+}
+.shijie .shouzhang .tongban2 .rmbox{
+    margin-top: 17px;
+    width: 720px;
+}
+.shijie .shouzhang .tongban2 .rmzp{
+    position: relative;
+    width: 720px;
+    height: 447px;
+    overflow: hidden;
+}
+.shijie .shouzhang .tongban2 .rmzp ul{
+    position: absolute;
+    width: 720px;
+    left: 0px;
+    top: 0px;
+    display: none;
+    height: 447px;
+}
+.shijie .shouzhang .tongban2 .rmzp ul:first-child{
+    display:block;
+}
+.shijie .shouzhang .tongban2 .rmzp ul li{
+    float: left;
+    width: 220px;
+    height: 443px;
+    margin-left: 20px;
+}
+.shijie .shouzhang .tongban2 .rmzp ul li a{
+    color: #000;
+}
+.shijie .shouzhang .tongban2 .rmzp ul li .rm_img{
+    width: 220px;
+    height: 351px;
+    position: relative;
+    transition: all ease .3s;
+
+
+}
+.shijie .shouzhang .tongban2 .rmzp ul li .rm_desc{
+    margin-top: 10px;
+    border-left: 1px solid #000;
+    padding-left: 15px;
+    margin-left: 20px;
+
+}
+.shijie .shouzhang .tongban2 .rmzp ul li .rm_desc .p1{
+    font-weight: 700;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 160px;
+    margin-bottom: 2px;
+    line-height: 18px;
+
+}
+.shijie .shouzhang .tongban2 .rmzp ul li .rm_desc .p2{
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+
+}
+.shijie .shouzhang .tongban2 .rmzp ul li  .p3{
+    margin-left: 35px;
+    padding-left: 26px;
+    color: #999;
+    margin-top: 5px;
+    background: url("./XBYM/阴阳师/love_be82b43.png") no-repeat;
+    height: 18px;
+    font-size: 12px;
+}
+.shijie .shouzhang .tongban2 .rmbox .refuse{
+    padding-right: 20px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+  
+    text-align: right;
+    font-size: 0;
+    height: 35px;
+    line-height: 35px;
+
+}
+.shijie .shouzhang .tongban2 .rmbox .refuse i{
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+    background-position: -731px -657px;
+    content: '';
+    width: 14px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    transition: all ease .3s;
+    background-repeat: no-repeat;
+}
+.shijie .shouzhang .tongban2 .rmbox .refuse:hover i{
+    transform: rotate(360deg);
+
+}
+.shijie .shouzhang .tongban2 .rmbox .refuse span{
+    display: inline-block;
+    vertical-align: middle;
+    color: #7fc4d2;
+    font-size: 12px;
+    line-height: 15px;
+}
+.shijie .dachu{
+    width: 100%;
+    height: 228px;
+    margin: 40px 0 70px;
+    background: url("./XBYM/阴阳师/ruzhu_bg_1311a36.jpg")center bottom no-repeat;
+}
+.shijie .dachu .dachutit{
+    text-align: center;
+    font-size: 0;
+}
+.shijie .dachu .dachutit span{
+    width: 1px;
+    height: 23px;
+    display: inline-block;
+    margin: 0 20px;
+    background: #ccc;
+    vertical-align: middle;
+}
+.shijie .dachu .dachutit img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.shijie .dachu .dachutit .yrz{
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+}
+.shijie .dachu .dachutit a{
+    color: #7fc4d2;
+    line-height: 22px;
+    display: inline-block;
+    margin-left: 6px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.shijie .dachu .dachutit .nvhai{
+    position: absolute;
+    width: 120px;
+    top: -40px;
+    left: 115px;
+    z-index: 10;
+    transition: all ease .5s;
+    opacity: 0;
+}
+.shijie .dachu .dachutit .yrz:hover .nvhai{
+    opacity: 1;
+}
+.shijie .dachu .dachuzp{
+    position: relative;
+    width: 1180px;
+    height: 170px;
+
+}
+.shijie .dachu .dachuzp ul{
+    position: absolute;
+    width: 1180px;
+    left: 0px;
+    top: 0px;
+    height: 155px;
+    margin-top: 15px;
+    display:none;
+}
+.shijie .dachu .dachuzp ul:first-child{
+    display:block;
+}
+.shijie .dachu .dachuzp ul li{
+    float: left;
+    width: 220px;
+    height: 155px;
+    background: url("./XBYM/阴阳师/rz_bg_596c03c.jpg") center bottom no-repeat;
+    margin-right: 20px;
+    position: relative;
+}
+.shijie .dachu .dachuzp ul li a{
+    color: #000;
+}
+.shijie .dachu .dachuzp ul li .head{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 5px;
+    overflow: hidden;
+}
+.shijie .dachu .dachuzp ul li .bg{
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+    background-position: -58px -510px;
+    width: 118px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -59px;
+    transition: all .4s ease;
+    background-repeat: no-repeat;
+}
+.shijie .dachu .dachuzp ul li:hover .bg{
+    transform: rotate(90deg);
+}
+.shijie .dachu .dachuzp ul li .tuzi{
+    font-size: 14px;
+    margin-top: 115px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.shijie .dachu  .refuse{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    text-align: right;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 40px;
+    color: #7fc4d2;
+    font-size: 12px;
+
+}
+.shijie .dachu .refuse i{
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+    background-position: -731px -657px;
+    content: '';
+    width: 14px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    transition: all ease .3s;
+    background-repeat: no-repeat;
+}
+.shijie .dachu .refuse:hover i{
+    transform: rotate(360deg);
+
+}
+.shijie .shiting{
+    height: 215px;
+    padding-bottom: 47px;
+}
+.shijie .shiting .sttit{
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+    background-position: -916px -297px;
+    width: 55px;
+    height: 146px;
+    float: left;
+    margin-right: 35px;
+    background-repeat: no-repeat;
+}
+.shijie .shiting .stbox{
+    float: left;
+    width: 1090px;
+    height: 215px;
+    background: url("./XBYM/阴阳师/shiting_bg_735f29c.png") left 70px no-repeat;;
+}
+.shijie .shiting .stbox ul{
+    height: 141px;
+}
+.shijie .shiting .stbox ul li:first-child{
+    margin-left: 30px;
+}
+.shijie .shiting .stbox ul li{
+    width: 250px;
+    height: 141px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+}
+.shijie .shiting .stbox ul li .stname{
+    font-size: 16px;
+    background: #000;
+    padding: 5px 10px;
+    color: #fff;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+}
+.shijie .shiting .stbox ul li .stname i{
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    background: url("./XBYM/阴阳师/au_35379f6.png") no-repeat;
+    margin-right: 5px;
+    transition: all .3s ease;
+}
+.shijie .shiting .stbox ul li:hover i{
+    background: url("./XBYM/阴阳师/au_h_a87510a.png") no-repeat;
+    display: inline-block;
+}
+.shijie .shiting .stbox ul li img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(https://yys.res.netease.com/pc/gw/20180913151832/img/loading_057a59b.gif) center center no-repeat #fff;
+}
+.shijie .shiting .stbox .btn{
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #c2a060;
+    font-size: 14px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #c2a060;
+    margin-top: 30px;
+}
+.shijie .shiting .stbox .btn .i1{
+    width: 1px;
+    height: 41px;
+    top: 2px;
+    right: -3px;
+    content: '';
+    position: absolute;
+    background: #e0cfaf;
+}
+.shijie .shiting .stbox .btn .i2{
+    width: 41px;
+    height: 5px;
+    display: inline-block;
+    margin-left: 20px;
+    background: url("./XBYM/阴阳师/arrow_245be57.png") no-repeat;
+}
+.shijie .shiting .stbox .btn .i3{
+    width: 213px;
+    height: 1px;
+    left: 0;
+    bottom: -3px;
+    content: '';
+    position: absolute;
+    background: #e0cfaf;
+}
+.shijie .shiting .stbox .btn:hover .i2{
+    animation: shakeR 1s ease;
+}
+@keyframes  shakeR{
+    0%, 100%, 20%, 50%, 80% {
+        transition-timing-function: cubic-bezier(0.215,.61,.355,1);
+        transform: translate3d(0,0,0);
+    }
+    40%, 43% {
+        transition-timing-function: cubic-bezier(0.755,.5,.855,.06);
+        transform: translate3d(-10px,0,0);
+    }
+    70% {
+        transition-timing-function: cubic-bezier(0.755,.05,.855,.06);
+        transform: translate3d(-5px,0,0);
+    }
+    90% {
+        transform: translate3d(-4px,0,0);
+    }
+}
+.shijie .yule{
+    margin-bottom: 70px;
+    background: url("./XBYM/阴阳师/fun_bg_99effa1.jpg") left 175px no-repeat;
+    height: 516px;
+}
+.shijie .yule .fantit{
+    width: 120px;
+    float: left;
+  
+}
+.shijie .yule .fantit a{
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+    background-position: -1107px -297px;
+    display: block;
+    width: 55px;
+    height: 140px;
+    background-repeat: no-repeat;
+}
+.shijie .yule .funbox{
+    width: 1060px;
+    height: 516px;
+    float: left;
+    position: relative;
+}
+.shijie .yule .funbox .box-1{
+    width: 1060px;
+    height: 536px;
+    position: relative;
+    overflow: hidden;
+}
+.shijie .yule .funbox .box-1 ul{
+    width: 1380px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    height: 516px;
+}
+.shijie .yule .funbox .box-1 ul li{
+    float: left;
+    width: 220px;
+    height: 516px;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+.shijie .yule .funbox .box-1 ul li:hover{
+    transform: translate(0,-20px);
+}
+.shijie .yule .funbox .box-1 ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.shijie .yule .funbox #leftm{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    line-height: 70px;
+    background: #fff;
+    border: 1px solid #c2a060;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: -36px;
+    display:none;
+
+ 
+} 
+.shijie .yule .funbox #leftm i{
+    width: 47px;
+    height: 9px;
+    display: block;
+    margin: 32px auto 0;
+    font-style: normal;
+    transition: all .3s ease;
+    background: url("./XBYM/阴阳师/arrow1_53d9b6f.png") no-repeat;
+
+
+}
+
+.shijie .yule #leftm:hover i{
+    animation: shakeRr 1s ease;
+}
+@keyframes  shakeRr{
+    0%, 100%, 20%, 50%, 80% {
+        transition-timing-function: cubic-bezier(0.215,.61,.355,1);
+        transform: translate3d(0,0,0);
+    }
+    40%, 43% {
+        transition-timing-function: cubic-bezier(0.755,.5,.855,.06);
+        transform: translate3d(10px,0,0);
+    }
+    70% {
+        transition-timing-function: cubic-bezier(0.755,.05,.855,.06);
+        transform: translate3d(5px,0,0);
+    }
+    90% {
+        transform: translate3d(4px,0,0);
+    }
+}
+
+
+.shijie .yule .funbox #rightkv{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #fff;
+    border: 1px solid #c2a060;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+  
+    right: -36px;
+  
+    cursor: pointer;
+} 
+.shijie .yule .funbox #rightkv i{
+    width: 47px;
+    height: 9px;
+    display: block;
+    margin: 32px auto 0;
+    transition: all .3s ease;
+    background: url("./XBYM/阴阳师/arrow4_bdb96a0.png") no-repeat;
+    font-style: normal;
+    z-index:-1;
+
+}
+
+.shijie .yule #rightkv:hover i{
+    animation: shakeRr 1s ease;
+}
+@keyframes  shakeRr{
+    0%, 100%, 20%, 50%, 80% {
+        transition-timing-function: cubic-bezier(0.215,.61,.355,1);
+        transform: translate3d(0,0,0);
+    }
+    40%, 43% {
+        transition-timing-function: cubic-bezier(0.755,.5,.855,.06);
+        transform: translate3d(-10px,0,0);
+    }
+    70% {
+        transition-timing-function: cubic-bezier(0.755,.05,.855,.06);
+        transform: translate3d(-5px,0,0);
+    }
+    90% {
+        transform: translate3d(-4px,0,0);
+    }
+}
+.shijie .shangye{
+    margin-bottom: 57px;
+    position: relative;
+    height: 264px;
+}
+.shijie .shangye .sytit{
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+
+    background-position: -725px -297px;
+    width: 53px;
+    height: 184px;
+    float: left;
+    margin-right: 67px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.shijie .shangye #jdbox{
+    overflow: hidden;
+outline: none;
+width: 1060px;
+height: 270px;
+float: left;
+margin-top: -20px;
+position: relative;
+float: left;
+
+}
+.shijie .shangye #ulp{
+    width: 7290px;
+    position: relative;
+height: 244px;
+padding-top: 20px;
+}
+.shijie .shangye #ulp li{
+    float: left;
+width: 250px;
+height: 174px;
+margin-right: 20px;
+position: relative;
+transition: all .4s ease;
+}
+.shijie .shangye #ulp li:hover{
+    transform: translate(0,-20px);
+}
+.shijie .shangye p{
+        color: #000;
+        font-size: 14px;
+margin: 7px 0 0 42px;
+}
+.shijie .shangye #xian{
+    background: rgb(239, 239, 239);
+position: absolute;
+opacity: 1;
+top:230px;
+cursor: default;
+width: 1060px;
+display: block;
+height: 5px;
+}
+.shijie .shangye #zi{
+    z-index:10;
+    width: 154px;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(194, 160, 96);
+background-clip: padding-box;
+box-sizing: border-box;
+font-size: 12px;
+
+position: absolute;
+    height: 28px!important;
+cursor: pointer;
+top: -12px!important;
+text-align: center;
+line-height: 28px;
+color: #c2a060;
+}
+.shijie .shangye #zi span{
+    margin-left: 2px;
+}
+.shijie .shangye #zi span i{
+    background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+    background-position: -1166px -510px;
+    margin-right: -2px;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.shijie .shangye #zi span i:nth-child(1){
+    animation: breath 2.5s ease infinite;
+
+}
+.shijie .shangye #zi span i:nth-child(2){
+    animation: breath 2.5s ease 2s infinite;
+
+}
+.shijie .shangye #zi span i:nth-child(2){
+    animation: breath 2.5s ease 4s infinite;
+
+}
+@keyframes breath{
+    0% {
+        opacity: .003;}
+        50% {
+            opacity: 1;}
+            100% {
+                opacity: .003;}
+}
+
+#dabao{  width: 1060px;
+    height: 300px;
+    margin-left: 150px;
+     margin: auto;
+     float: left;
+
+    }
+ .shijie .shangye .end{
+    width: 10px;
+    height: 10px;
+    background: #efefef;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+
+    }
+    .shijie .guanfang{
+        height: 310px;
+    overflow: hidden;
+    height: 310px;
+    }
+    .shijie .guanfang .ewm{
+        margin-top: 83px;
+    width: 100%;
+    height: 167px;
+    background: #f2f2f2;
+    }
+    .shijie .guanfang .ewm .wb{
+        
+        float: left;
+    margin: -26px 0 0 20px;
+    
+    }
+    .shijie .guanfang .ewm .wb .code{
+        width: 196px;
+    height: 146px;
+    border: 2px solid #ccc;
+    background: #fff;
+    position: relative;
+    }
+    .shijie .guanfang .ewm .wb .code a{
+        width: 100%;
+    height: 100%;
+    display: block;
+    color: #000;
+
+    }
+    .shijie .guanfang .ewm .wb .code p{
+        width: 16px;
+    float: left;
+    line-height: 14px;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-right: 5px;
+    }
+    .shijie .guanfang .ewm .wb .code .first{
+        margin-left: 15px;
+    }
+    .shijie .guanfang .ewm .wb .code span{
+        background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+
+        background-position: -1134px -510px;
+        background-repeat: no-repeat;
+        display: block;
+    float: left;
+    margin-top: 15px;
+    width: 22px;
+    height: 87px;
+    }
+   
+ .shijie .guanfang .ewm .wb .code img{
+        width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 104px;
+    top: -30px;
+    display: block;
+    } 
+    .shijie .guanfang .ewm .codename{
+        text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+    .shijie .guanfang .ewm .codename span{
+        color: #ccb786;
+    }
+
+    .shijie .guanfang .ewm .role{
+        position: relative;
+    width: 190px;
+    height: 270px;
+    background: url("./XBYM/阴阳师/code_role_bg_58d7f15.png") 68px top no-repeat;
+    margin-top: -70px;
+    cursor: pointer;
+    }
+    .shijie .guanfang .ewm .role .wrap{
+        position: absolute;
+    top: 0;
+    left: 0;
+    width: 203px;
+    height: 232px;
+    z-index: 10;
+    }
+    .shijie .guanfang .ewm .role .wrap .wrap1{
+        left: -80px;
+    top: 18px;
+    width: 162px;
+    position: absolute;
+    
+    height: 145px;
+    background: url("./XBYM/阴阳师/pop_1_d7fd28e.png") center bottom no-repeat;
+    background-size: 40% 40%;
+    }
+    .shijie .guanfang .ewm .role .wrap .wrap2{
+        left: -95px;
+    top: -15px;
+    width: 393px;
+    height: 87px;
+    position: absolute;
+    background: url("./XBYM/阴阳师/pop_2_59d8aac.png") center bottom no-repeat;
+    background-size: 40% 40%;
+    }
+    .shijie .guanfang .ewm .role .wrap .wrap3{
+        left: 40px;
+    top: 108px;
+    width: 393px;
+    height: 87px;
+    position: absolute;
+    background: url("./XBYM/阴阳师/pop_3_f9cc3eb.png") center bottom no-repeat;
+    background-size: 40% 40%;
+    }
+    .shijie .guanfang .ewm .role .wrap .wrap4{
+        left: -210px;
+    top: 76px;
+    width: 393px;
+    position: absolute;
+    height: 87px;
+    background: url("./XBYM/阴阳师/pop_4_e01e2f4.png") center bottom no-repeat;
+    background-size: 40% 40%;
+    }
+    .shijie .guanfang .ewm .role .wrap .wrap5{
+        left: -200px;
+    top: 0;
+    width: 393px;
+    position: absolute;
+    height: 87px;
+    background: url("./XBYM/阴阳师/pop_5_696f9f7.png") center bottom no-repeat;
+    background-size: 40% 40%;
+
+    }
+    .shijie .guanfang .ewm .role .wrap .wrap6{
+        left: 80px;
+        top: -30px;
+        width: 319px;
+        height: 269px;
+        background: url("./XBYM/阴阳师/pop_6_6fda30b.png") center bottom no-repeat;
+        background-size: 40% 40%;
+    }
+    .shijie .guanfang .ewm .role .wrap .item{
+        opacity: 0;
+        transition: opacity .6s ease;
+    }
+    .shijie .guanfang .ewm .rolewrap{
+        position: absolute;
+        top: 52px;
+        left: 8px;
+        width: 203px;
+        height: 233px;
+        cursor: pointer;
+        z-index: 8;
+        background: url("./XBYM/阴阳师/sl_70cf981.png") -406px 0 no-repeat;
+        background-size: 1015px 233px;
+    } 
+
+    .partbottm{
+        width: 100%;
+    height: 927px;
+    background: url("./XBYM/阴阳师/bottom_bg_b30cb11.png") center no-repeat;
+    position: relative;
+    margin-top: -50px;
+    }
+    .partbottm .bott{
+        width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    }
+    .partbottm .bott .logo{
+        background: url("./XBYM/阴阳师/index_z_7b228ae.png");
+        background-position: 0px -297px;
+        width: 71px;
+    height: 203px;
+    position: absolute;
+    top: 346px;
+    left: 235px;
+    background-repeat: no-repeat;
+
+    }
+    .partbottm .bott .bottbox{
+        width: 650px;
+    height: 390px;
+    position: absolute;
+    top: 206px;
+    right: 35px;
+    cursor: pointer;
+    }
+   
+    
+    .partbottm .bott .bottbox .bott1{
+        position: relative;
+    width: 356px;
+    height: 354px;
+    margin: 34px 0 0 320px;
+    }
+    .partbottm .bott .bottbox .bott1 .baiyue{
+        width: 276px;
+    height: 276px;
+    background: url("./XBYM/阴阳师/bott_yuan_1_6d7cb01.png") no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -138px;
+    margin-top: -138px;
+    }
+    .partbottm .bott .bottbox .bott1 .shine{
+        position: absolute;
+    left: -7px;
+    top: -11px;
+    width: 356px;
+    height: 354px;
+    background: url("./XBYM/阴阳师/bott_ewm_bing_3328825.png") no-repeat;
+    opacity: 0;
+    }
+    .partbottm .bott .bottbox:hover .shine1{
+        animation: light 2s ease infinite;
+    }
+    @keyframes light{
+        0%{
+            transform: scale(0.8);
+        opacity: 0;
+        }
+        40%{
+            opacity: 1;
+        }
+        100%{
+            transform: scale(1.2);
+        opacity: 0;
+        }
+    }
+    .partbottm .bott .bottbox .bott1 .shine2{
+        position: absolute;
+    left: -7px;
+    top: -11px;
+    width: 356px;
+    height: 354px;
+    background: url("./XBYM/阴阳师/bott_ewm_bing_3328825.png") no-repeat;
+    opacity: 0;
+    }
+    .partbottm .bott .bottbox:hover .shine2{
+        animation: light 2s ease 0.5s infinite;
+    }
+
+@keyframes light{
+    0%{
+        transform: scale(0.8);
+    opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.2);
+    opacity: 0;
+    }
+}
+    .partbottm .bott .bottbox .bott1 .mouth{
+        position: absolute;
+    left: -7px;
+    top: -11px;
+    width: 356px;
+    height: 354px;
+    background: url("./XBYM/阴阳师/bott_ewm_853021b.png") no-repeat;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 1s ease;
+    
+    
+    }
+    .partbottm .bott .bottbox:hover .mouth{
+        transform: scale(1);
+    opacity: 1;
+    }
+
+    .partbottm .bott .bottbox .bott1 .white{
+        width: 276px;
+    height: 276px;
+    background: url("./XBYM/阴阳师/bott_yuan_76bba3a.png") no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -138px;
+    margin-top: -138px;
+    transition: all 1s ease;
+    animation: scale2 2.8s ease infinite;
+    }
+    .bottbox:hover .white {
+        opacity: 0;
+    
+    }
+    @keyframes scale2{
+        0%{
+            transform: scale(0.8);
+        }
+        50%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(0.8);
+        }
+    }
+    .partbottm .bott .bottbox .bott1 .whitecon{
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -115px;
+        margin-top: -115px;
+
+    }
+    .partbottm .bott .bottbox .bott1 .black{
+        width: 276px;
+    height: 276px;
+    background: url("./XBYM/阴阳师/bott_black_82cac82.png") no-repeat;
+    transform: translate(9px,-55px);
+    transition: all 1s ease-in;
+}
+.partbottm .bott .bottbox:hover .black{ 
+
+    transform: translate(230px,-230px);
+
+}
+.partbottm .footer{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    height: 205px;
+}
+.partbottm .footer .share{
+    width: 170px;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+}
+.partbottm .footer .share .nie{
+    line-height: 0!important;
+    position: relative;
+    font-size: 0;
+    display: inline-block;
+   
+}
+.partbottm .footer .share .nie .txt{
+    display: inline-block;
+   float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-right: 10px;
+
+}
+.partbottm .footer .share .nie  ul{
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.partbottm .footer .share .nie  ul li{
+    margin-right: 3px;
+    float: left;
+
+}
+.partbottm .footer .share .nie  ul li a{
+    color: #fff;
+    display: inline-block;
+    margin-right: 3px;
+    font-size: 23px;
+    line-height: 20px;
+    text-decoration: none;
+
+}
+.partbottm .footer .share .nie  ul li a:hover{
+    color: #a70d01;
+    text-decoration: none;
+}
+
+.partbottm .footer .share .more{
+    width: 204px;
+    top: 20px;
+    left: 154px;
+    position: absolute;
+    
+height: 32px;
+display: none;
+}
+.partbottm .footer .share .nie  ul .lkk:hover .more{
+ display: block;
+}
+.partbottm .footer .share .more ul{
+    
+   
+    position: absolute!important;
+    z-index: 9;
+    width: 210px;
+    padding: 2px;
+    border: 1px #c2c2c2 solid;
+    background: #fff;
+    overflow: hidden;
+    padding: 4px;
+
+   
+}
+
+
+
+.partbottm .footer .share .more ul li{
+    float: left;
+    width: 99px;
+    overflow: hidden;
+    height: 25px;
+   
+}
+.partbottm .footer .share .more ul li:hover{
+    color: #000;
+    background-color: #f0f0f0;
+    border-color: #e0e0e0;
+}
+.partbottm .footer .share .more ul li a{
+    background-position: 5px 2px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    text-indent: 20px;
+    color: #333;
+    font-size: 12px;
+    border: 1px #fff solid;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.partbottm .footer .copy{
+    text-align: center;
+}
+.partbottm .footer .copy .inner{
+    width: 955px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+.partbottm .footer .copy .inner .part1{
+    width: 955px;
+    height: 48px;
+}
+.partbottm .footer .copy .inner .part1 .niecn{
+    display: inline-block;
+    vertical-align: middle;
+    height: 48px;
+    min-width: 300px;
+    width: 370px;
+
+}
+.partbottm .footer .copy .inner .part1 .niecn img{
+    padding-right: 15px;
+    padding-top: 5px;
+    border: 0;
+    vertical-align: middle;
+}
+.partbottm .footer .copy .inner .part1 .niecn2{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.partbottm .footer .copy .inner .part1 .niecn2 i{
+    font-style: normal;
+}
+.partbottm .footer .copy .inner .part1 .niecn2 i a{
+    color: #fff;
+    cursor: pointer;
+
+}
+.partbottm .footer .copy .inner .part1 .niecn2 i a:hover{
+    text-decoration: underline;
+}
+.partbottm .footer .copy .inner .part1 .niecn2 i .hongzi{
+    background-color: #610000;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 3px;
+    top: 21px;
+    display: inline-block;
+
+}
+.partbottm .footer .copy .inner .part2{
+    padding-top: 10px;
+    line-height: 24px;
+}
+.partbottm .footer .copy .inner .part2 p{
+    color: #ccc;
+}
+.partbottm .footer .copy .inner .part2 span{
+    display: inline-block;
+    color: #ccc;
+    vertical-align: top;
+
+}
+.partbottm .footer .copy .inner .part2  a{
+    color: #fff;
+}
