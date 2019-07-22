@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>贪吃蛇</title>
+	<style>
+
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			list-style: none;
+		}
+		div {
+			margin: 20px auto;
+			position: relative;
+			border: 2px solid #A5F84E;
+			background: url("1.png");
+		}
+		span {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 20px;
+			height: 20px;
+			border-radius: 5px;
+			background-color: #77FC87;
+		}
+		p{
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: #FBFC77;
+		}
+		h3{
+			color: red;
+		}
+		.title {
+			position: absolute;
+			top: 20px;
+			left: 300px;
+		}
+		ul li{
+			cursor: pointer;
+		}
+		input {
+			cursor: pointer;
+		}
+		b{
+			color: red;
+		}
+		body {
+			background:url("3.jpg") no-repeat;
+			background-size: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="title">
+		<h2>贪吃蛇PLUS</h2>
+		<h3>score:</h3>
+		<b id="sco">0</b>
+		<ul id="mod">
+			<li>简单模式</li>
+			<li>一般模式</li>
+			<li>困难模式</li>
+			<li>死亡模式</li>
+		</ul>
+		<input type="button" value="开始游戏" id="playgame" disabled>
+		<input type="button" value="重置游戏" id="reset">
+	</div>
+	
+	<script>
+
+		var snakeGame = {
+			gameArea:{
+				width:600,
+				height:600,
+				backgroundColor: 'gold',
+				borderColor: 'red',
+				area:null
+			},
+			positionArr:function(){
+				var arr = [];
+				for(var i = 0;i < 30;i++){
+					arr[i] = i * 20;
+				}
+				return arr;
+			},
+			snackBody:{
+				snackLength:3,
+				ary:[],
+				food:null
+			},
+			direction:"right",
+			n:1,
+			score:0,
+			b:document.getElementsByTagName('b')[0],
+			gameInit:function (){
+				var div = document.createElement('div');
+				this.gameArea.area = div;
+				div.style = "width:"+this.gameArea.width + "px;height:" + this.gameArea.height + 'px;background-color:'+ this.gameArea. backgroundColor + '; border: 2px solid'+ this.gameArea.borderColor + ';';
+				document.body.appendChild(div);
+
+				for(var i = 0 ;i < this.snackBody.snackLength;i++){
+					var span = document.createElement('span');
+					this.snackBody.ary.push(span);
+					span.style.left = i*20+'px';
+					div.appendChild(span);
+				}
+				var food = document.createElement('p');
+				this.snackBody.food = food;
+				food.style = "left:"+this.positionArr()[Math.floor(Math.random()*30)]+'px;top:'+this.positionArr()[Math.floor(Math.random()*30)]+'px;';
+					div.appendChild(food);
+			},
+			snackMove:function(){
+				var tail= this.snackBody.ary[0];
+				var head = this.snackBody.ary[this.snackBody.ary.length - 1];
+				if(this.direction == "right"){
+					tail.style.top = head.style.top;
+					tail.style.left = parseInt(head.style.left) + 20 + 'px';
+				}else if(this.direction == "bottom"){
+					tail.style.left = head.style.left;
+					tail.style.top = parseInt(getComputedStyle(head).top) + 20 + 'px';	
+				}else if(this.direction == "left"){
+					tail.style.top = head.style.top;
+					tail.style.left = parseInt(head.style.left) - 20 + 'px';
+				}else if(this.direction == "top"){
+					tail.style.left = head.style.left;
+					tail.style.top = parseInt(getComputedStyle(head).top) - 20 + 'px';
+				}
+
+				this.snackBody.ary.shift();
+				this.snackBody.ary.push(tail);
+
+				var tail= this.snackBody.ary[0];
+				var head = this.snackBody.ary[this.snackBody.ary.length - 1];
+
+				var X = parseInt(head.style.left);
+				var Y = parseInt(head.style.top);
+
+				var x = parseInt(this.snackBody.food.style.left);
+				var y = parseInt(this.snackBody.food.style.top);
+
+				var fx = tail.style.left;
+				var fy = tail.style.top;
+
+				if(X == x && Y== y){
+
+					var span = document.createElement('span');
+					span.style.left = fx;
+					span.style.top = fy;
+
+					this.gameArea.area.appendChild(span);
+					this.snackBody.ary.unshift(span);
+					this.snackBody.food.style = "left:"+this.positionArr()[Math.floor(Math.random()*30)]+'px;top:'+this.positionArr()[Math.floor(Math.random()*30)]+'px;background-color:' + randomColor();
+
+					function randomColor(){
+						var ar = [0,1,2,3,4,5,6,7,8,9,"a","b","c","d","e","f"];
+        				var color = "#";
+						for(var i = 0; i < 6; i++){
+							var num = Math.floor(Math.random()*16);
+							color += ar[num];
+						}
+						return color;
+					}
+					_this = this;
+					var scoreT = setInterval(function(){
+						_this.score++;
+						_this.b.innerHTML = _this.score + '分';
+						if(_this.score == _this.n * 10){
+							clearInterval(scoreT);
+							_this.n++;
+						}
+
+					},200);
+				}
+				if(X < 0 || X > 580 || Y < 0 || Y > 580){
+					
+					alert("是不是傻,这就死了？");
+					clearInterval(time);
+				}
+				for(var i = 0;i< this.snackBody.ary.length - 1;i++){
+					var lx = parseInt(this.snackBody.ary[i].style.left);
+					var ty = parseInt(this.snackBody.ary[i].style.top);
+					if(X == lx && Y == ty){
+						clearInterval(time);
+						alert("自己撞到自己啦！");
+					}
+				}
+		}	
+}		
+		snakeGame.gameInit();
+		
+	window.onkeydown = function(e){
+		if(e.keyCode == 39 && snakeGame.direction != "left"){
+			snakeGame.direction = "right";
+		}else if(e.keyCode == 37 && snakeGame.direction != "right"){
+			snakeGame.direction = "left";
+		}else if(e.keyCode == 38 && snakeGame.direction != "bottom"){
+			snakeGame.direction = "top";
+		}else if(e.keyCode == 40 && snakeGame.direction != "top"){
+			snakeGame.direction = "bottom";
+		}
+	}
+	var lilist = document.getElementById('mod').children;
+	var playgame = document.getElementById('playgame');
+
+	for(var i = 0; i < lilist.length;i++){
+		lilist[i].setAttribute("gameSpeed",i);
+		lilist[i].onclick = function(){
+			playgame.disabled = false;
+			gameSpeed = this.getAttribute('gameSpeed');
+			for(var k = 0;k < lilist.length;k++){
+				lilist[k].style = "background-color:"+ "";
+			}
+			this.style = "background-color:"+ "skyblue";
+		}
+	}
+	playgame.onclick = function(){
+		var speed = 0;
+		switch(gameSpeed){
+			case '0':
+				speed = 400;
+				break;
+			case '1':
+				speed = 200;
+				break;
+			case '2':
+				speed = 100;
+				break;
+			case '3':
+				speed = 16;
+				break;
+		}
+		time = setInterval(function(){
+			snakeGame.snackMove();
+		},speed)
+	}
+	var resetGame = document.getElementById('reset');
+	var _this = this; 
+	resetGame.onclick = function(){
+		snakeGame.direction = 'right';
+		clearInterval(time);
+		document.body.removeChild(document.getElementsByTagName('div')[1]);
+		snakeGame.snackBody.ary = [];
+		snakeGame.gameInit();
+	}
+
+	</script>
+</body>
+</html>
