@@ -1,0 +1,32 @@
+.box {
+	margin: 20px auto;
+	width: 600px;
+}
+ul {
+	position: relative;
+	top: 1px;
+}
+ul li {
+	display: inline-block;
+	padding: 0 10px;
+	margin-right: 10px;
+	line-height: 30px;
+	border: 1px solid #aaa;
+	cursor: pointer;
+}
+ul li.active{
+	color: red;
+	border-bottom-color: #fff;
+}
+.box div {
+	display: none;
+	margin-top: 10px;
+}
+.box div span {
+	display: block;
+	width: 400px;
+	margin:auto;
+}
+.box div.active{
+	display: block;
+}
